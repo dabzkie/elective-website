@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            DB | APPAREL - Products
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css" rel="stylesheet" >
+    </head>
+    <body>
+            <div class="container">
+                <div class="navbar">
+                    <div class="logo">
+                        <img src="images/db_logo.png" width="100px" height="100px">
+                    </div>
+                    <nav>
+                        <ul id="MenuItems">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="product.html">Products</a></li>
+                            <li><a href="contacts.html">Contacts</a></li>
+                            <li><a href="about.html">About</a></li>
+                        </ul>
+                    </nav>
+                    <img src="images/cart.png" width="30px" height="30px">
+                    <img src="images/menu.png" class="menu-icon" 
+                    onclick="menutoggle()">
+                </div>
+            </div>
+
+        <!------------- FEATURED PRODUCTS ------------->
+
+        <div class="small-container">
+            <div class="row row-2">
+                <h2> All Products</h2>
+                <select>
+                    <option>Default</option>
+                    <option>Sort by Price</option>
+                    <option>Sort by Popularity</option>
+                    <option>Sort by Rating</option>
+                </select>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/sample1.jpg" alt="">
+                    <h4>Gojo T-Shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>P200.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/sample3.jpeg" alt="">
+                    <h4>Gojo T-Shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>P200.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/sample4.jpg" alt="">
+                    <h4>One Piece Logo Tee</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>P200.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/sample5.jpg" alt="">
+                    <h4>Luffy Tee</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>P200.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/sample6.jpg" alt="">
+                    <h4>Killua Tee</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>P200.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/sample7.jpg" alt="">
+                    <h4>Naruto Sage Tee</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>P200.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/mockup.jpg" alt="">
+                    <h4>Mock-Up Tee</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>P200.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/midset.jpg" alt="">
+                    <h4>Mindset is Everything Tee</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>P200.00</p>
+                </div>
+            </div>
+
+            <div class="page-btn">
+                <span>1</span>
+                <span>2</span>
+                <span>3</span>
+                <span>&#8594;</span>
+            </div>
+        </div>
+
+        <!--------- footer --------->
+
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Order Online</h3>
+                        <p>Contact us on Facebook and Twitter</p>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="images/db_logo.png" alt="">
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Contacts</h3>
+                        <ul>
+                            <li><a href="https://www.facebook.com/profile.php?id=100078020972125" target="_blank">Facebook</a></li>
+                            <li><a href="https://twitter.com/aguarilles2d" target="_blank">Twitter</a></li>
+                            <li><a href="https://www.instagram.com/dabzk1e/" target="_blank">Instagram</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Offers</h3>
+                        <ul>
+                            <li>Discount</li>
+                            <li>New Arrivals</li>
+                            <li>Upcoming Tees</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-----js for toggle menu---->
+        <script>
+            var MenuItems = document.getElementById("MenuItems");
+
+            MenuItems.style.maxHeight = "0px";
+
+            function menutoggle(){
+                if(MenuItems.style.maxHeight == "0px"){
+                    MenuItems.style.maxHeight = "200px";
+                } else {
+                    MenuItems.style.maxHeight = "0px";
+                }
+            }
+        </script>
+    </body>
+</html>
